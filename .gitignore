@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Release binaries
+release/
+
+# Runtime data
+.temp/
+data/
+output/
+
+# Tests
+tests/
+.tmp_pytest/
+.pytest_cache/
+
+# Linters / type checkers
+.ruff_cache/
+.mypy_cache/
+
+# Agent workspace
+.agent/
+
+# Generated spreadsheets (root only)
+/*.xlsx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
